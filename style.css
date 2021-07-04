@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+
+body
+{
+    margin:0;
+    padding:0;
+}
+
+.top-section
+{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    height:800px;
+    display:flex;
+}
+
+.half-width
+{
+    width:40%;
+    margin:20px 50px;
+    float:left;
+    padding:18px;
+   
+    
+
+}
+
+h1
+{
+    font-size:50px;
+}
+
+h3
+{
+    font-size:20px;
+}
+
+.half-width h1 span
+{
+    color:darkorange;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+p
+{
+    font-size:20px;
+    color:#7c7c7c;
+
+}
+
+.btne
+{
+   text-decoration: none;
+   font-weight:600;
+   color:#fff;
+   font-family: 'Otomanopee One', sans-serif;
+   border-radius: 30px;
+   background:linear-gradient(45deg,darkorange, rgb(198, 16, 214));
+   padding:15px 25px;
+   box-shadow: 1px 1px 15px darkorange;
+
+}
+
+.btn
+{
+    margin-top:35px;
+}
+
+.half-width img 
+{
+    width:100%;
+   
+}
+
+.middle-section
+{
+    height:800px;
+    display:flex;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.last-section
+{
+    height:800px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    position:left;
+    background-position-y:250px;
+ 
+}
+
+.last-h3
+{
+    color:darkorange;
+}
+
+.last-section .box
+{
+    height:400px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 25px gray;
+}
+
+#Full-Stack
+{
+    border-left:8px solid tomato;
+}
+
+#Web-Developer
+{
+    border-left:8px solid;
+    border-image:linear-gradient(195deg,blue, #4dccff); 
+    border-image-slice: 1;
+}
+
+footer
+{
+    text-align:center;
+}
