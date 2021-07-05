@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 
 
 
@@ -6,6 +6,7 @@ body
 {
     margin:0;
     padding:0;
+    
 }
 
 .top-section
@@ -35,6 +36,7 @@ h1
 h3
 {
     font-size:20px;
+    font-family: 'Akaya Kanadaka', cursive;
 }
 
 .half-width h1 span
@@ -108,13 +110,25 @@ p
 #Full-Stack
 {
     border-left:8px solid tomato;
+    border-radius: 50px;
 }
 
 #Web-Developer
 {
-    border-left:8px solid;
+    /*border-left:8px solid;
     border-image:linear-gradient(195deg,blue, #4dccff); 
     border-image-slice: 1;
+    border-radius: 50px;*/
+
+    background: 
+    linear-gradient(#ffffff,#ffffff) padding-box, /*this is your grey background*/
+    linear-gradient(45deg, #aaa8aa, #f7044d) border-box;
+   color: #313149;
+   padding:10px;
+   border-left: 10px solid transparent;
+   border-radius:50px;
+  
+
 }
 
 footer
